@@ -1,4 +1,13 @@
-.App{
+.App {
   height: 100vh;
-  background-color:hsl(233, 47%, 7%);
+  background-color: hsl(233, 47%, 7%);
+  position: relative;
+  &-header {
+    border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
 }
