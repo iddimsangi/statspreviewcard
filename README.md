@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/iddimsangi/statspreviewcard](https://github.com/iddimsangi/statspreviewcard)
-- Live Site URL: [https://ntfpreviewcard.netlify.app](https://ntfpreviewcard.netlify.app)
+- Live Site URL: []()
 
 ## My process
 
