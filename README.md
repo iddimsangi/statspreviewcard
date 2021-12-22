@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![https://github.com/iddimsangi/ntfpreviewCard/blob/master/src/images/Screenshot%20from%202021-12-20%2011-50-25.png](https://github.com/iddimsangi/ntfpreviewCard/blob/master/src/images/Screenshot%20from%202021-12-20%2011-50-25.png)
+![https://github.com/iddimsangi/statspreviewcard/blob/master/src/screenshort.png](https://github.com/iddimsangi/statspreviewcard/blob/master/src/screenshort.png)
 
 ### Links
 
