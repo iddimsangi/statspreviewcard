@@ -1,5 +1,5 @@
 .App {
-  height: 100vh;
+  height: 120vh;
   background-color: hsl(233, 47%, 7%);
   position: relative;
   &-header {
@@ -78,6 +78,8 @@
   @media only screen and (max-width:768px){
     &-header {
    width: 90%;
+   top: 65%;
+   min-height: 50vh;
      &--box {
      
       //  width: 70rem;
@@ -106,27 +108,52 @@
      }
     }
   }
-  // @media only screen and (max-width:414px){
-  //   &-header {
-  //    flex-direction: column-reverse;
-  //    width: 80%;
-  //   //  justify-content: center;
-  //    align-items: center;
-  //    &--box {
-  //     //  width: 37rem;
-  //      &:first-child {
-  //        width: 100%;
-  //      }
-  //      &:last-child{
-  //        width: 100%;
-  //        height: 35rem;
-  //      }
-  //      .footer {
-  //        flex-direction: column;
-  //        align-items: center;
-  //        justify-content: space-between;
-  //      }
-  //    }
-  //   }
-  // }
+  @media only screen and (max-width:480px){
+    &-header {
+      width: 80%;
+      align-items: center;
+      flex-direction: column-reverse;
+      margin-top: 2rem;
+      // top: 10%;
+      height: 100vh;
+     &--box {
+      //  width: 37rem;
+       &:first-child {
+         width: 100%;
+         .wrapper{
+           text-align: center;
+           h1{
+             font-size: 2.5rem;
+           }
+           p{
+             font-size: 1.3rem;
+           }
+         }
+       }
+       &:last-child{
+         width: 100%;
+         min-height: 25rem;
+         
+         
+       }
+      
+      
+       .footer {
+      //  border: 1px solid red;
+       flex-direction: column;
+      //  justify-content: space-between;
+     
+      align-items: center;
+      &--content{
+        // border: 1px solid orange;
+        font-size: 2rem;
+        text-align: center;
+        &:not(:last-of-type){
+          margin-bottom: 2rem;
+        }
+      }
+       }
+     }
+    }
+  }
 }
