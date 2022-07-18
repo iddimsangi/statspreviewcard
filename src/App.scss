@@ -2,11 +2,10 @@
   min-height: 140vh;
   background-color: hsl(233, 47%, 7%);
   position: relative;
-  &-header {
+  &-section {
     height: 50%;
     max-height: 30rem;
     position: absolute;
-    // border: 1px solid green;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -14,15 +13,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // flex-wrap: wrap-reverse;
     &--box {
       width: 40rem;
       padding: 4rem;
-      // height: 32rem;
       display: flex;
       flex-direction: column;
       .footer {
-        // border: 1px solid orange;
         display: flex;
         width: 90%;
         font-size: 1rem;
@@ -41,19 +37,14 @@
       }
       &:first-child {
         background-color: hsl(244, 38%, 16%);
-        // width: 50%;
-        // min-height: 30rem;
-        // height: 30rem;
         height: 30rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         border-top-left-radius: 1rem;
         border-bottom-left-radius: 1rem;
-        // min-width: 35rem;
         .wrapper {
-          // border: 1px solid red;
-          // width: 70%;
+          min-width: 20.8rem;
           h1 {
             font-size: 2.5rem;
             margin-bottom: 2rem;
@@ -73,7 +64,6 @@
       &:last-child {
         width: 35rem;
         height: 30rem;
-        // border: 1px solid red;
         border-top-right-radius: 1rem;
         border-bottom-right-radius: 1rem;
         background-image: linear-gradient(#b000cfb9, #87049ea6),
@@ -87,18 +77,14 @@
     }
   }
   @media only screen and (max-width: 768px) {
-    &-header {
+    &-section {
       width: 90%;
-      // top: 70%;
       min-height: 50vh;
       &--box {
-        //  width: 70rem;
         &:first-child {
           width: 60%;
 
           .wrapper {
-            // border: 1px solid red;
-            // width: 70%;
             h1 {
               font-size: 2rem;
               margin-bottom: 2rem;
@@ -117,24 +103,20 @@
     }
   }
   @media only screen and (max-width: 480px) {
-    &-header {
-      width: 80%;
+    &-section {
+      min-width: 27rem;
       align-items: center;
       flex-direction: column-reverse;
-      // margin-top: 10rem;
       margin-top: 1rem;
-      // top: 10%;
       height: 100vh;
       &--box {
-        //  width: 37rem;
         &:first-child {
-        height: 40rem;
+          height: 40rem;
           width: 100%;
           .wrapper {
             text-align: center;
             h1 {
-              font-size: 2.5rem;
-
+              font-size: 2.3rem;
             }
             p {
               font-size: 1.3rem;
@@ -151,13 +133,9 @@
         }
 
         .footer {
-          //  border: 1px solid red;
           flex-direction: column;
-          //  justify-content: space-between;
-
           align-items: center;
           &--content {
-            // border: 1px solid orange;
             font-size: 2rem;
             text-align: center;
             &:not(:last-of-type) {
